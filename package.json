@@ -1,0 +1,32 @@
+{
+  "name": "create-claude-docs",
+  "version": "0.1.0",
+  "description": "Scaffold CLAUDE.md, docs/claude, and optional docs/design-system into an existing repository.",
+  "license": "MIT",
+  "type": "module",
+  "bin": "./bin/create-claude-docs.mjs",
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./bin/create-claude-docs.mjs",
+    "check": "node --check ./src/cli.mjs"
+  },
+  "keywords": [
+    "claude",
+    "documentation",
+    "scaffold",
+    "template",
+    "ai"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
